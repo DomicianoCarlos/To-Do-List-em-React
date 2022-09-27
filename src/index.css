@@ -88,8 +88,11 @@ html,body{
   text-indent: 2px;
   font-size: 16px;
   padding: 5px;
-  background-color: #E2E8E9
-  ;
+  background-color: #E2E8E9;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
 }
 
 .form-and-todo-box .input-and-button .button{
@@ -147,5 +150,11 @@ html,body{
 .todo .edit-and-delete{
   display: flex;
   cursor: pointer;
+}
+.todo font{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
 }
 
