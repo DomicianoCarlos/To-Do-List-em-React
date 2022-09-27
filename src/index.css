@@ -1,0 +1,151 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+html,body{
+  background-color: #fff;
+}
+
+.wrapper{
+  max-width: 1200px;
+  height: auto;
+  margin: 30px auto;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.menu-home{
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.logo-header{
+  display: block;
+  margin: 0px auto;
+}
+@media (max-width: 600px)
+{
+  .logo-header{
+    display: block;
+    margin: 0px auto;
+  }
+}
+.sidebar-header{
+  margin: 0px auto;
+  margin-left: 355px;
+  width: 20px;
+  height: 20px;
+}
+@media (max-width: 600px)
+{
+  .sidebar-header{
+    display: block;
+    margin: 0px auto;
+  }
+}
+.car-header{
+  margin: 0px auto;
+  margin-right: 355px;
+  width: 20px;
+  height: 20px;
+}
+@media (max-width: 600px)
+{
+  .car-header{
+    display: block;
+    margin: 0px auto;
+  }
+}
+
+
+.form-and-todo-box{
+  width: 500px;
+  margin: auto;
+  height: auto;
+}
+
+.form-and-todo-box .input-and-button{
+  height: 45px;
+  background-color: #fff;
+  overflow: hidden;
+  display: flex;
+}
+@media (max-width: 600px)
+{
+  .input-and-button{
+    margin-left: 10px;
+    margin-right: 155px;
+  }
+}
+
+.form-and-todo-box .input-and-button input{
+  width: 92%;
+  height: 100%;
+  outline: none;
+  border: none;
+  text-indent: 2px;
+  font-size: 16px;
+  padding: 5px;
+  background-color: #E2E8E9
+  ;
+}
+
+.form-and-todo-box .input-and-button .button{
+  width: 8%;
+  height: 100%;
+  background-color: #E2E8E9
+  ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:-1px;
+}
+
+.form-and-todo-box .input-and-button .button.edit{
+  width: auto;
+  padding: 0px 10px;
+}
+
+
+.form-and-todo-box .input-and-button .button button{
+  outline: none;
+  cursor: pointer;
+  border: 1px solid #E2E8E9
+  ;
+  background-color: transparent;
+  color: #000;
+}
+
+.todo{
+  margin: 15px 0px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid;
+  padding: 5px;
+}
+@media (max-width: 600px)
+{
+  .todo{
+    margin-left: 10px;
+    margin-right: 155px;
+  }
+}
+
+.todo input{
+  margin-right: 5px;
+}
+
+.todo span{
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.todo .edit-and-delete{
+  display: flex;
+  cursor: pointer;
+}
+
